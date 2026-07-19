@@ -3,10 +3,9 @@ export const services = {
   video: ["Videos para redes sociales", "Reels, TikToks y Shorts", "Videos corporativos", "Anuncios publicitarios", "Contenido para YouTube", "Subtítulos y motion graphics", "Adaptación a todos los formatos", "Edición recurrente"]
 };
 export const projects = [
-  { type: "Sitios web", name: "Sitio web corporativo", desc: "Una presencia digital clara que convierte visitas en oportunidades.", tags: ["UX/UI", "Next.js"], kind: "web" },
-  { type: "Plataformas", name: "Plataforma personalizada", desc: "Operaciones y reservas organizadas en un solo lugar.", tags: ["Dashboard", "Automatización"], kind: "platform" },
-  { type: "Aplicaciones", name: "Aplicación Android", desc: "Una experiencia móvil simple para clientes en movimiento.", tags: ["Android", "Producto"], kind: "app" },
-  { type: "Video", name: "Contenido para redes", desc: "Historias dinámicas, editadas para captar atención.", tags: ["Reels", "Motion"], kind: "video" }
+  { type: "Sitios web", name: "Craghill Advisory", desc: "Sitio corporativo para presentar servicios de constitución y acompañamiento empresarial en Estados Unidos.", tags: ["Diseño web", "Servicios"], image: "/projects/craghill_web.png", device: "desktop", accent: "cyan" },
+  { type: "Aplicaciones", name: "Decide Me!", desc: "Experiencia móvil de entretenimiento con una identidad visual enérgica, divertida y fácil de reconocer.", tags: ["Aplicación", "Producto digital"], image: "/projects/decideme_app.png", device: "phone", accent: "purple" },
+  { type: "Sitios web", name: "Tiger Security", desc: "Presencia web corporativa para una empresa panameña de seguridad y centro de capacitación.", tags: ["Diseño web", "Seguridad"], image: "/projects/tigersecurity_web.png", device: "desktop", accent: "orange" }
 ];
 export const packages = [
   { name: "Landing page", eyebrow: "PARA CAMPAÑAS", description: "Una página estratégica y enfocada en convertir visitas en contactos.", features: ["Diseño personalizado", "Responsive", "Formulario o WhatsApp", "SEO esencial"], icon: "landing", href: "/servicios/landing-pages" },
