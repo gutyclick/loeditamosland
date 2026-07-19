@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal/LegalPage";
-export const metadata: Metadata = { title: "Términos y condiciones", description: "Términos generales aplicables a los servicios digitales de LoEditamos.", alternates: { canonical: "/terminos" } };
+export const metadata: Metadata = { title: "Términos y condiciones", description: "Términos generales aplicables a los servicios digitales de LoEditamos.", alternates: { canonical: "/terminos" }, robots: { index: false, follow: true } };
 export default function TermsPage(){return <LegalPage eyebrow="INFORMACIÓN LEGAL" title="Términos y condiciones" intro="Estas condiciones establecen las reglas generales para solicitar y contratar nuestros servicios." sections={[
   {title:"1. Alcance de los servicios",paragraphs:["LoEditamos ofrece diseño y desarrollo web, plataformas, aplicaciones y edición audiovisual. El alcance específico, entregables, tiempos y costos se definen en una propuesta aceptada por ambas partes."]},
   {title:"2. Cotizaciones",paragraphs:["Las solicitudes enviadas desde esta web son informativas y no constituyen un contrato. La contratación comienza al aceptar una propuesta y cumplir las condiciones de inicio indicadas en ella."]},

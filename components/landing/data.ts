@@ -9,10 +9,10 @@ export const projects = [
   { type: "Video", name: "Contenido para redes", desc: "Historias dinámicas, editadas para captar atención.", tags: ["Reels", "Motion"], kind: "video" }
 ];
 export const packages = [
-  { name: "Landing page", eyebrow: "PARA CAMPAÑAS", description: "Una página estratégica y enfocada en convertir visitas en contactos.", features: ["Diseño personalizado", "Responsive", "Formulario o WhatsApp", "SEO esencial"], icon: "landing" },
-  { name: "Web corporativa", eyebrow: "PARA EMPRESAS", description: "Una presencia digital completa para presentar tu marca y servicios.", features: ["Arquitectura de contenido", "Múltiples secciones", "SEO técnico", "Panel escalable"], icon: "web", featured: true },
-  { name: "Plataforma o aplicación", eyebrow: "PARA OPERACIONES", description: "Una solución a medida para digitalizar servicios, clientes o procesos.", features: ["UX/UI a medida", "Panel administrativo", "Integraciones", "Desarrollo por etapas"], icon: "app" },
-  { name: "Videos mensuales", eyebrow: "PARA CONTENIDO", description: "Edición recurrente para mantener tus canales activos y consistentes.", features: ["Paquete mensual", "Subtítulos y motion", "Formatos para redes", "Flujo de entrega"], icon: "video" }
+  { name: "Landing page", eyebrow: "PARA CAMPAÑAS", description: "Una página estratégica y enfocada en convertir visitas en contactos.", features: ["Diseño personalizado", "Responsive", "Formulario o WhatsApp", "SEO esencial"], icon: "landing", href: "/servicios/landing-pages" },
+  { name: "Web corporativa", eyebrow: "PARA EMPRESAS", description: "Una presencia digital completa para presentar tu marca y servicios.", features: ["Arquitectura de contenido", "Múltiples secciones", "SEO técnico", "Panel escalable"], icon: "web", href: "/servicios/diseno-desarrollo-web", featured: true },
+  { name: "Plataforma o aplicación", eyebrow: "PARA OPERACIONES", description: "Una solución a medida para digitalizar servicios, clientes o procesos.", features: ["UX/UI a medida", "Panel administrativo", "Integraciones", "Desarrollo por etapas"], icon: "app", href: "/servicios/plataformas-aplicaciones" },
+  { name: "Videos mensuales", eyebrow: "PARA CONTENIDO", description: "Edición recurrente para mantener tus canales activos y consistentes.", features: ["Paquete mensual", "Subtítulos y motion", "Formatos para redes", "Flujo de entrega"], icon: "video", href: "/servicios/edicion-video" }
 ];
 // Prototipos visuales: reemplazar por testimonios verificados antes del lanzamiento definitivo.
 export const testimonials = [
