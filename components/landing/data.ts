@@ -16,10 +16,10 @@ export const packages = [
 ];
 // Prototipos visuales: reemplazar por testimonios verificados antes del lanzamiento definitivo.
 export const testimonials = [
-  { quote: "Nos ayudaron a ordenar la idea y convertirla en una web mucho más clara, profesional y fácil de presentar a nuestros clientes.", name: "María R.", role: "Emprendedora", country: "Panamá", flag: "🇵🇦" },
-  { quote: "El proceso fue directo y siempre supimos en qué etapa estaba el proyecto. El resultado se siente hecho para nuestra empresa.", name: "Carlos M.", role: "Director comercial", country: "México", flag: "🇲🇽" },
-  { quote: "Logramos un sistema mucho más sencillo para nuestro equipo. Valoramos especialmente la comunicación y el acompañamiento.", name: "Andrea V.", role: "Gerente de operaciones", country: "Colombia", flag: "🇨🇴" },
-  { quote: "La edición mensual nos permitió publicar de forma constante sin sacrificar la calidad ni el estilo de nuestra marca.", name: "Sofía L.", role: "Creadora de contenido", country: "Estados Unidos", flag: "🇺🇸" }
+  { quote: "Nos ayudaron a ordenar la idea y convertirla en una web mucho más clara, profesional y fácil de presentar a nuestros clientes.", name: "María R.", role: "Emprendedora", country: "Panamá", countryCode: "pa" },
+  { quote: "El proceso fue directo y siempre supimos en qué etapa estaba el proyecto. El resultado se siente hecho para nuestra empresa.", name: "Carlos M.", role: "Director comercial", country: "México", countryCode: "mx" },
+  { quote: "Logramos un sistema mucho más sencillo para nuestro equipo. Valoramos especialmente la comunicación y el acompañamiento.", name: "Andrea V.", role: "Gerente de operaciones", country: "Colombia", countryCode: "co" },
+  { quote: "La edición mensual nos permitió publicar de forma constante sin sacrificar la calidad ni el estilo de nuestra marca.", name: "Sofía L.", role: "Creadora de contenido", country: "Estados Unidos", countryCode: "us" }
 ];
 export const faqs = [
   { q: "¿Cuánto cuesta crear una página web?", a: "Depende del alcance, las funciones y el contenido. Primero entendemos el proyecto y luego entregamos una cotización clara, sin cargos ocultos." },
