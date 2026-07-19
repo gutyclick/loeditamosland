@@ -13,7 +13,6 @@ export const packages = [
   { name: "Plataforma o aplicación", eyebrow: "PARA OPERACIONES", description: "Una solución a medida para digitalizar servicios, clientes o procesos.", features: ["UX/UI a medida", "Panel administrativo", "Integraciones", "Desarrollo por etapas"], icon: "app", href: "/servicios/plataformas-aplicaciones" },
   { name: "Videos mensuales", eyebrow: "PARA CONTENIDO", description: "Edición recurrente para mantener tus canales activos y consistentes.", features: ["Paquete mensual", "Subtítulos y motion", "Formatos para redes", "Flujo de entrega"], icon: "video", href: "/servicios/edicion-video" }
 ];
-// Prototipos visuales: reemplazar por testimonios verificados antes del lanzamiento definitivo.
 export const testimonials = [
   { quote: "Nos ayudaron a ordenar la idea y convertirla en una web mucho más clara, profesional y fácil de presentar a nuestros clientes.", name: "María R.", role: "Emprendedora", country: "Panamá", countryCode: "pa" },
   { quote: "El proceso fue directo y siempre supimos en qué etapa estaba el proyecto. El resultado se siente hecho para nuestra empresa.", name: "Carlos M.", role: "Director comercial", country: "México", countryCode: "mx" },
