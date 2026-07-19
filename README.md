@@ -20,8 +20,8 @@ npm run build
 
 ## Configuración
 
-- Cambia `WHATSAPP_NUMBER` en `components/landing/LandingPage.tsx` por el número real, incluyendo código de país y sin símbolos.
-- El formulario simula el envío en `QuoteForm`. El comentario dentro de `submit()` señala el lugar donde conectar una API Route, Supabase o Resend.
+- El WhatsApp está configurado mediante `WHATSAPP_NUMBER` en `components/landing/LandingPage.tsx`, incluyendo código de país y sin símbolos.
+- El formulario crea una solicitud detallada y la envía directamente por WhatsApp.
 - Actualiza los enlaces de redes sociales y textos legales antes de producción.
 - El proyecto no requiere variables de entorno en su estado actual.
 
