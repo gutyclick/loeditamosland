@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal/LegalPage";
-export const metadata: Metadata = { title: "Política de privacidad | LoEditamos", description: "Conoce cómo LoEditamos recopila, utiliza y protege tu información personal.", alternates: { canonical: "/privacidad" } };
+export const metadata: Metadata = { title: "Política de privacidad", description: "Conoce cómo LoEditamos recopila, utiliza y protege tu información personal.", alternates: { canonical: "/privacidad" } };
 export default function PrivacyPage(){return <LegalPage eyebrow="INFORMACIÓN LEGAL" title="Política de privacidad" intro="Tu privacidad importa. Aquí explicamos con claridad qué información recibimos y cómo la utilizamos." sections={[
   {title:"1. Información que recopilamos",paragraphs:["Recopilamos únicamente los datos que proporcionas voluntariamente mediante nuestros formularios o conversaciones por WhatsApp, como tu nombre, tipo de proyecto, fecha estimada y descripción."]},
   {title:"2. Cómo utilizamos la información",paragraphs:["Utilizamos esta información para responder solicitudes, preparar propuestas, coordinar proyectos y mejorar nuestros servicios. No vendemos ni alquilamos información personal."]},

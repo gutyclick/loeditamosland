@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { LegalPage } from "@/components/legal/LegalPage";
-export const metadata: Metadata = { title: "Política de cookies | LoEditamos", description: "Información sobre el uso de cookies y tecnologías similares en LoEditamos.", alternates: { canonical: "/cookies" } };
+export const metadata: Metadata = { title: "Política de cookies", description: "Información sobre el uso de cookies y tecnologías similares en LoEditamos.", alternates: { canonical: "/cookies" } };
 export default function CookiesPage(){return <LegalPage eyebrow="INFORMACIÓN LEGAL" title="Política de cookies" intro="Explicamos qué son las cookies y cómo pueden utilizarse en esta web." sections={[
   {title:"1. Qué son las cookies",paragraphs:["Las cookies son pequeños archivos que un sitio puede guardar en tu navegador para recordar preferencias, mantener funciones esenciales o comprender cómo se utiliza la web."]},
   {title:"2. Cookies esenciales",paragraphs:["Podemos utilizar cookies estrictamente necesarias para seguridad, funcionamiento y preferencias básicas. Estas no se utilizan para crear perfiles publicitarios."]},
