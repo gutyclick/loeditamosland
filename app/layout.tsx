@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://loeditemos.com"),
+  metadataBase: new URL("https://www.loeditamos.com"),
   applicationName: "LoEditamos",
   title: { default: "LoEditamos | Diseño web, aplicaciones y edición de video", template: "%s | LoEditamos" },
   description: "Creamos páginas web, plataformas, aplicaciones Android y contenido audiovisual a medida para empresas, negocios y creadores.",
   keywords: ["diseño web", "desarrollo web", "páginas web", "landing pages", "plataformas a medida", "aplicaciones Android", "edición de video", "edición de reels", "agencia digital", "Panamá"],
-  authors: [{ name: "LoEditamos", url: "https://loeditemos.com" }],
+  authors: [{ name: "LoEditamos", url: "https://www.loeditamos.com" }],
   creator: "LoEditamos",
   publisher: "LoEditamos",
   category: "technology",

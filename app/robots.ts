@@ -1,2 +1,2 @@
 import type { MetadataRoute } from "next";
-export default function robots(): MetadataRoute.Robots { return { rules: { userAgent: "*", allow: "/" }, sitemap: "https://loeditemos.com/sitemap.xml", host: "https://loeditemos.com" }; }
+export default function robots(): MetadataRoute.Robots { return { rules: { userAgent: "*", allow: "/" }, sitemap: "https://www.loeditamos.com/sitemap.xml", host: "https://www.loeditamos.com" }; }
